@@ -1,80 +1,70 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="The home of Gameknight999 readers, stories, and adventures beyond the server." />
-    <title>Gameknight999 | The adventures aren't over</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&family=Press+Start+2P&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Gameknight999 home"><span class="brand-mark">G</span><span>Gameknight<span class="brand-number">999</span></span></a>
-      <nav aria-label="Main navigation">
-        <a href="#story">The story</a>
-        <a href="#books">The books</a>
-        <a href="#write">Write</a>
-      </nav>
-    </header>
-
-    <main id="top">
-      <section class="hero">
-        <div class="hero-image" role="img" aria-label="Minecraft-style landscape at sunrise"></div>
-        <div class="hero-content shell">
-          <p class="eyebrow">Welcome, adventurer</p>
-          <h1>Step into the world of <span>Gameknight999</span></h1>
-          <p class="hero-copy">Epic Minecraft adventures. A world where the story is only getting started.</p>
-          <a class="button button-gold" href="#books">Choose your next adventure <span aria-hidden="true">→</span></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Meet Gameknight999: a gamer pulled into a world where the monsters are real. Discover the books by Mark Cheverton." />
+  <title>Gameknight999 | Find your next book</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Gameknight999 home"><span class="brand-mark">G</span><span>Gameknight<span class="brand-number">999</span></span></a>
+    <nav aria-label="Main navigation"><a href="#books">Start reading</a><a href="#write">Write a story</a><a href="#server">The server</a></nav>
+  </header>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="shell hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow eyebrow-gold">The Gameknight999 books</p>
+          <h1 id="hero-heading">What if you were <span>trapped inside Minecraft?</span></h1>
+          <p class="hero-copy">Gameknight999 is pulled into his favorite game. Now the monsters are real, and surviving the Overworld is his only way home.</p>
+          <a class="button button-gold" href="https://www.markcheverton.com/books">Find your next Gameknight999 book <span aria-hidden="true">↗</span></a>
         </div>
-      </section>
-
-      <section class="cards-section" aria-label="Keep exploring">
-        <div class="cards shell">
-          <article class="feature-card books" id="books">
-            <div class="card-icon" aria-hidden="true">▣</div>
-            <p class="eyebrow">Next stop</p>
-            <h2>Find the books</h2>
-            <p>Meet Gameknight999 and follow his adventures in the books.</p>
-            <a class="button button-dark" href="https://www.markcheverton.com/books" target="_blank" rel="noreferrer">Explore the Gameknight999 Books <span aria-hidden="true">↗</span></a>
-          </article>
-          <article class="feature-card writing" id="write">
-            <div class="card-icon" aria-hidden="true">✎</div>
-            <p class="eyebrow">Your turn</p>
-            <h2>Write your own adventure</h2>
-            <p>What happens next in your world? Grab a pencil, open a blank page, and let your imagination lead.</p>
-            <a class="button button-dark" href="https://www.markcheverton.com/fanfic" target="_blank" rel="noreferrer">Write Your Own Story <span aria-hidden="true">↗</span></a>
-          </article>
+        <div class="hero-books" aria-label="The first three Gameknight999 book covers">
+          <a class="cover cover-one" href="https://www.markcheverton.com/books" aria-label="Explore Invasion of the Overworld on Mark's books page"><img src="/images/books/Book-1-3D-small.png" alt="Invasion of the Overworld book cover" width="396" height="540" /></a>
+          <a class="cover cover-two" href="https://www.markcheverton.com/books" aria-label="Explore Battle for the Nether on Mark's books page"><img src="/images/books/Book-2-3D-small.png" alt="Battle for the Nether book cover" width="396" height="540" /></a>
+          <a class="cover cover-three" href="https://www.markcheverton.com/books" aria-label="Explore Confronting the Dragon on Mark's books page"><img src="/images/books/Book-3-3D-small.png" alt="Confronting the Dragon book cover" width="396" height="540" /></a>
         </div>
-      </section>
-
-      <section class="intro shell" aria-labelledby="welcome-heading">
-        <div class="intro-card">
-          <p class="eyebrow">A note from Mark</p>
-          <h2 id="welcome-heading">Thanks for being part of the world.</h2>
-          <p>The Gameknight999 server is closed. I’m grateful it gave me the chance to meet readers and play alongside them, and I’ll always remember that time. I’m also grateful to the staff who shared that chapter with me.</p>
-          <p>Now the books and the stories you create are where the adventure continues.</p>
-        </div>
-        <div class="pixel-note" aria-hidden="true"><span>✦</span><strong>Keep<br />imagining</strong></div>
-      </section>
-
-      <section class="story section-dark" id="story" aria-labelledby="story-heading">
-        <div class="shell story-grid">
-          <div>
-            <p class="eyebrow eyebrow-light">The server's story</p>
-            <h2 id="story-heading">A place to meet readers and play.</h2>
-            <p>The server gave me the chance to meet readers and play alongside them. I’m grateful for the time we shared there.</p>
-            <p>That chapter has now ended, and the server is closed. The books and the stories readers create are where the adventure continues.</p>
+      </div>
+    </section>
+    <section class="discovery" id="books" aria-labelledby="books-heading">
+      <div class="shell">
+        <p class="eyebrow">Your first step into the Overworld</p>
+        <h2 id="books-heading">New to Gameknight999? <span>Start here.</span></h2>
+        <div class="first-book">
+          <a class="first-cover" href="https://www.markcheverton.com/books" aria-label="Explore Invasion of the Overworld on Mark's books page"><img src="/images/books/Book-1-3D-small.png" alt="Invasion of the Overworld book cover" width="396" height="540" loading="lazy" /></a>
+          <div class="first-copy">
+            <p class="book-label">Book one · Invasion of the Overworld</p>
+            <h3>The game just became real.</h3>
+            <p>Gameknight999 used to ruin other players' games for fun. Then one of his father's inventions sends him into Minecraft, where he discovers the creatures are alive. Can he learn to work with them?</p>
+            <a class="button button-dark" href="https://www.markcheverton.com/books">Find book one on Mark’s site <span aria-hidden="true">↗</span></a>
           </div>
-          <figure class="story-image"><img src="/images/allinonemovie-minecraft-1106253_1920.png" alt="A torch-lit Minecraft-style castle at night" loading="lazy" /><figcaption>Every adventure leaves a light behind.</figcaption></figure>
         </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="shell footer-inner"><a class="brand" href="https://www.markcheverton.com" target="_blank" rel="noreferrer"><span class="brand-mark">G</span><span>Gameknight<span class="brand-number">999</span></span></a><p>Made for readers, builders, and storytellers. © 2026 Mark Cheverton.</p><a href="https://www.markcheverton.com" target="_blank" rel="noreferrer">MarkCheverton.com ↗</a></div>
-    </footer>
-  </body>
+        <div class="returning">
+          <div><p class="eyebrow">For returning readers</p><h3>Already met Gameknight999? <span>Find your next adventure.</span></h3><p>More books are waiting on Mark's Books page.</p></div>
+          <a class="button button-outline" href="https://www.markcheverton.com/books">Explore the books <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+    <section class="writing-section" id="write" aria-labelledby="write-heading">
+      <div class="shell writing-layout"><div class="writing-panel">
+        <p class="eyebrow">Your turn to create</p><h2 id="write-heading">Write your own adventure</h2>
+        <p>What might happen in a world you imagine? Start with one idea, then see where your story takes you.</p>
+        <a class="button button-dark" href="https://www.markcheverton.com/fanfic">Explore fan fiction <span aria-hidden="true">↗</span></a>
+      </div></div>
+    </section>
+    <section class="server-section" id="server" aria-labelledby="server-heading">
+      <div class="shell server-layout"><div class="server-panel">
+        <p class="eyebrow">A note from Mark</p><h2 id="server-heading">Remembering the server</h2>
+        <p>The Gameknight999 server is closed. It gave me the chance to meet readers and play alongside them, and I’ll always remember that time. I’m grateful to the readers and staff who shared that chapter with me.</p>
+        <p>The books and the stories you create are where the adventure continues.</p>
+      </div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><a class="brand" href="https://www.markcheverton.com"><span class="brand-mark">G</span><span>Gameknight<span class="brand-number">999</span></span></a><p>Made for readers, builders, and storytellers. © 2026 Mark Cheverton.</p><a href="https://www.markcheverton.com">MarkCheverton.com ↗</a></div></footer>
+</body>
 </html>
